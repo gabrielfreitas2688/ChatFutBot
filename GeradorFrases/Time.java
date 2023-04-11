@@ -4,14 +4,14 @@
 public class Time {
 
     String nome, estadio, cidade;
-    int capacidadeEstadio, idade, numeroTitulos, numeroPaticipacoes;
+    int capacidadeEstadio, anoFundacao, numeroTitulos, numeroPaticipacoes;
 
-    Time(String nome, String estadio, String cidade, int idade, int capacidadeEstadio, int numeroTitulos, int numeroPaticipacoes)
+    Time(String nome, String estadio, String cidade, int anoFundacao, int capacidadeEstadio, int numeroTitulos, int numeroPaticipacoes)
     {
         this.nome = nome;
         this.estadio = estadio;
         this.cidade = cidade;
-        this.idade = idade;
+        this.anoFundacao = anoFundacao;
         this.capacidadeEstadio = capacidadeEstadio;
         this.numeroPaticipacoes = numeroPaticipacoes;
         this.numeroTitulos = numeroTitulos;
