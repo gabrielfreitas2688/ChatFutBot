@@ -63,8 +63,8 @@ public class Teste {
         //#1
         for (Paranaense paranaense : campeonatoParanaense) 
         {
-            System.out.println("-Quais times participaram do campeonato de " + paranaense.ano + "?");
-            System.out.print("-Os seguintes clubes participaram da edicao de " + paranaense.ano + ": ");
+            System.out.println("\"Quais times participaram do campeonato de " + paranaense.ano + "?\",");
+            System.out.print("\"Os seguintes clubes participaram da edicao de " + paranaense.ano + ":");
             int count = 1;
             for (Time time : paranaense.participantes) 
             {
@@ -73,7 +73,7 @@ public class Teste {
                 if(count == 11){System.out.print(" e ");}
                 count++;
             }
-            System.out.println("");
+            System.out.println("\",");
 
         }
         //#2
@@ -87,9 +87,9 @@ public class Teste {
                 else if(paranaense.finalistas.contains(time)){ate = "A final, onde foi eliminado";}
                 else if(paranaense.semi.contains(time)){ate = "as semi-finais, onde foi eliminado";}
                 else if(paranaense.quartas.contains(time)){ate = " as quartas de final, onde foi eliminado";}
-                System.out.printf("-Em que posição o %s ficou em %d?%n", time.nome, paranaense.ano);
-                if(ate != ""){System.out.printf("-Na primeira fase ficou em %d colocado, ja na segunda fase avançou até %s\n", i+1, ate);}
-                else{System.out.printf("-Na primeira fase ficou em %d colocado, então não se classificou para a segunda fase\n", i+1);}
+                System.out.printf("\"Em que posição o %s ficou em %d?\",%n", time.nome, paranaense.ano);
+                if(ate != ""){System.out.printf("\"Na primeira fase ficou em %d colocado, ja na segunda fase avançou até %s\",\n", i+1, ate);}
+                else{System.out.printf("\"Na primeira fase ficou em %d colocado, então não se classificou para a segunda fase\",\n", i+1);}
 
                 
             }
@@ -98,15 +98,28 @@ public class Teste {
         //#3
         for (Paranaense paranaense : campeonatoParanaense) 
         {
-            System.out.println("-Quem foi campeão em " + paranaense.ano + "?");
-            System.out.printf("-O %s levou o titulo no campeonato de %d\n",paranaense.campeao.nome, paranaense.ano);
+            System.out.println("\"Quem foi campeão em " + paranaense.ano + "?\",");
+            System.out.printf("\"O %s levou o titulo no campeonato de %d\",\n",paranaense.campeao.nome, paranaense.ano);
             
         }
         //#4
         for (Paranaense paranaense : campeonatoParanaense) 
         {
-            System.out.println("-Quem foi rebaixado em " + paranaense.ano + "?");
-            System.out.printf("-Os clubes %s e %s foram rebaixados na edição de %s ", paranaense.rebaixados.get(0).nome, paranaense.rebaixados.get(1).nome, paranaense.ano);           
+            System.out.println("\"Quem foi rebaixado em " + paranaense.ano + "?\",");
+            System.out.printf("\"Os clubes %s e %s foram rebaixados na edição de %s \",\n", paranaense.rebaixados.get(0).nome, paranaense.rebaixados.get(1).nome, paranaense.ano);           
+        }
+        //#5
+        for (Paranaense paranaense : campeonatoParanaense) 
+        {
+            for (Time time : paranaense.participantes) 
+            {
+                System.out.printf("\"Quantos titulos o %s tem?\",\n", time.nome);
+                if(time.numeroTitulos > 1){System.out.printf("\"Atualmente o %s acumula %d titulos de campeão paranaense\",\n", time.nome, time.numeroTitulos); }
+                else if(time.numeroTitulos == 1){System.out.printf("\"O %s possui apenas 1 titulo de campeão paranaense\",\n", time.nome); }
+                else{System.out.printf("\"O %s ainda não ganhou nenhuma edição do campeonato paranaense\",\n", time.nome); }
+                   
+            }
+                       
         }
 
 
