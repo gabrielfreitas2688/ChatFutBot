@@ -2,24 +2,27 @@ public class Teste {
     public static void main(String[] args) 
     {
         //Times
-        Time AthleticoPR = new Time("Athletico Paranaense", "Joaquin Américo Guimarães(Arena da Baixada)", "Curitiba", 1924, 42372, 27, 88);
-        Time Azuriz = new Time("Azuriz", "Estadio dos Pioneiros", "Pato Branco", 2018, 1500, 0, 2);
-        Time Cianorte = new Time("Cianorte", "Olimpico Albino Turbay", "Cianorte", 2002, 3000, 0, 18);
-        Time Coritiba = new Time("Coritiba", "Major Antônio Couto Pereira", "Curitiba", 1909, 40512, 39, 99);
-        Time Cascavel = new Time("FC Cascavel", "Olimpico Regional Arnaldo Busatto", "Cascavel", 2008, 28125, 0, 9);
-        Time Foz = new Time("Foz do Iguaçu", "Estadio do ABC", "Foz do Iguaçu", 1996, 6969, 0, 7);
-        Time Londrina = new Time("Londrina", "Municipal Jacy Scaff(Estadio do Cafe)", "Londrina", 1956, 30000, 5, 49);
-        Time Maringa = new Time("Maringá", "Regional Willie Davids", "Maringá", 2010, 21000, 0, 8);
-        Time Operario = new Time("Operário", "Germano Kruger", "Ponta Grossa", 1912, 10362, 1, 51);
-        Time RioBranco = new Time("Rio Branco", "Nelson Medrado Dias(Estradinha)", "Paranaguá", 1913, 4500, 0, 54);
-        Time SaoJoseense = new Time("São-Joseense", "Municipal Cilmar Pedro Goergen(Estádio do Pinhao)", "São José dos Pinhais", 2015, 4047, 0, 1);
-        Time Aruko = new Time("Aruko SB", "Regional Willie Davids", "Maringá", 2020, 21000, 0, 1);
-        Time Parana = new Time("Paraná", "Durival Britto e Silva(Vila Capanema)", "Curitiba", 1989, 20083, 7, 29);
-        Time Uniao = new Time("União", "Estádio Anilado", "Francisco Beltrão", 1956, 5438, 0, 4);
-        Time Toledo = new Time("Toledo", "Municipal 14 de Dezembro", "Toledo", 2004, 15280, 0, 12);
-        Time CascavelCR = new Time("Cascavel CR", "Olimpico Regional Arnaldo Busatto", "Cascavel", 2001, 28125, 0, 9);
-        Time PSTC = new Time("PSTC", "Estádio Ubirajara Medeiros", "Cornélio Procópio", 1994, 3500, 0, 3);
-        Time Prudentopolis = new Time("Prudentópolis", "Estádio Newton Agibert", "Prudentópolis", 2007, 5000, 0, 5);
+        Time AthleticoPR = new Time("Athletico Paranaense", "Joaquin Américo Guimarães(Arena da Baixada)", "Curitiba", 1924, 0, 42372, 27, 88);
+        Time Azuriz = new Time("Azuriz", "Estadio dos Pioneiros", "Pato Branco", 2018, 0, 1500, 0, 2);
+        Time Cianorte = new Time("Cianorte", "Olimpico Albino Turbay", "Cianorte", 2002, 0, 3000, 0, 18);
+        Time Coritiba = new Time("Coritiba", "Major Antônio Couto Pereira", "Curitiba", 1909, 0, 40512, 39, 99);
+        Time Cascavel = new Time("FC Cascavel", "Olimpico Regional Arnaldo Busatto", "Cascavel", 2008, 0, 28125, 0, 9);
+        Time Foz = new Time("Foz do Iguaçu", "Estadio do ABC", "Foz do Iguaçu", 1996, 0, 6969, 0, 7);
+        Time Londrina = new Time("Londrina", "Municipal Jacy Scaff(Estadio do Cafe)", "Londrina", 1956, 0, 30000, 5, 49);
+        Time Maringa = new Time("Maringá", "Regional Willie Davids", "Maringá", 2010, 0, 21000, 0, 8);
+        Time Operario = new Time("Operário", "Germano Kruger", "Ponta Grossa", 1912, 0, 10362, 1, 51);
+        Time RioBranco = new Time("Rio Branco", "Nelson Medrado Dias(Estradinha)", "Paranaguá", 1913, 0, 4500, 0, 54);
+        Time SaoJoseense = new Time("São-Joseense", "Municipal Cilmar Pedro Goergen(Estádio do Pinhao)", "São José dos Pinhais", 2015, 0, 4047, 0, 1);
+        Time Aruko = new Time("Aruko SB", "Regional Willie Davids", "Maringá", 2020, 0, 21000, 0, 1);
+        Time Parana = new Time("Paraná", "Durival Britto e Silva(Vila Capanema)", "Curitiba", 1989, 0, 20083, 7, 29);
+        Time Uniao = new Time("União", "Estádio Anilado", "Francisco Beltrão", 1956, 0, 5438, 0, 4);
+        Time Toledo = new Time("Toledo", "Municipal 14 de Dezembro", "Toledo", 2004, 0, 15280, 0, 12);
+        Time CascavelCR = new Time("Cascavel CR", "Olimpico Regional Arnaldo Busatto", "Cascavel", 2001, 0, 28125, 0, 9);
+        Time PSTC = new Time("PSTC", "Estádio Ubirajara Medeiros", "Cornélio Procópio", 1994, 0, 3500, 0, 3);
+        Time Prudentopolis = new Time("Prudentópolis", "Estádio Newton Agibert", "Prudentópolis", 2007, 0, 5000, 0, 5);
+        Time Malucelli = new Time("J.Malucelli", "Ecoestádio Janguito Malucelli", "Curitiba", 1994, 2017, 4200, 0, 10);
+        Time Nacional = new Time("Nacional AC", "Erich George", "Rolândia", 1947, 0, 2050, 0, 17);
+        Time Arapongas = new Time("Arapongas EC", "Estádio dos Pássaros", "Arapongas", 1974, 0, 15000, 0, 7);
 
         //Paranaense 2023
         Paranaense edicao2023 = new Paranaense();
@@ -352,15 +355,199 @@ public class Teste {
         edicao2018.vice = Coritiba;
  
 
+        //Paranaense 2017
+        Paranaense edicao2017 = new Paranaense();
+        edicao2017.ano = 2017;
+        edicao2017.goleada = "5 a 0 do Paraná sobre o Foz do Iguaçu";
+        edicao2017.golsTotais = 187;
+        edicao2017.numeroPartidas = 82;
+        //classificação 1 fase
+        edicao2017.participantes.add(Parana);
+        edicao2017.participantes.add(Coritiba);
+        edicao2017.participantes.add(Cianorte);
+        edicao2017.participantes.add(Londrina);
+        edicao2017.participantes.add(Prudentopolis);
+        edicao2017.participantes.add(Cascavel);
+        edicao2017.participantes.add(AthleticoPR);
+        edicao2017.participantes.add(RioBranco);
+        edicao2017.participantes.add(Foz);
+        edicao2017.participantes.add(Toledo);
+        edicao2017.participantes.add(PSTC);
+        edicao2017.participantes.add(Malucelli);
+
+        //rebaixados
+        edicao2017.rebaixados.add(PSTC);
+        edicao2017.rebaixados.add(Malucelli);
+        //quartas de final
+        edicao2017.quartas.add(AthleticoPR);
+        edicao2017.quartas.add(Parana);
+        edicao2017.quartas.add(Coritiba);
+        edicao2017.quartas.add(Cascavel);
+        edicao2017.quartas.add(Cianorte);
+        edicao2017.quartas.add(Prudentopolis);
+        edicao2017.quartas.add(Londrina);
+        edicao2017.quartas.add(RioBranco);
+        //Semi-Final
+        edicao2017.semi.add(Coritiba);
+        edicao2017.semi.add(Cianorte);
+        edicao2017.semi.add(AthleticoPR);
+        edicao2017.semi.add(Londrina);
+        //Final
+        edicao2017.finalistas.add(Coritiba);
+        edicao2017.finalistas.add(AthleticoPR);
+        //Campeao
+        edicao2017.campeao = Coritiba;
+        //Vice-Campeao
+        edicao2017.vice = AthleticoPR;        
+
+        //Paranaense 2016
+        Paranaense edicao2016 = new Paranaense();
+        edicao2016.ano = 2016;
+        edicao2016.goleada = "5 a 1 do Rio Branco sobre o Operário";
+        edicao2016.golsTotais = 184;
+        edicao2016.numeroPartidas = 82;
+        //classificação 1 fase
+        edicao2016.participantes.add(Parana);
+        edicao2016.participantes.add(Malucelli);
+        edicao2016.participantes.add(Coritiba);
+        edicao2016.participantes.add(AthleticoPR);
+        edicao2016.participantes.add(Londrina);
+        edicao2016.participantes.add(Toledo);
+        edicao2016.participantes.add(PSTC);
+        edicao2016.participantes.add(Foz);
+        edicao2016.participantes.add(Cascavel);
+        edicao2016.participantes.add(RioBranco);
+        edicao2016.participantes.add(Operario);
+        edicao2016.participantes.add(Maringa);
+
+        //rebaixados
+        edicao2016.rebaixados.add(Operario);
+        edicao2016.rebaixados.add(Maringa);
+        //quartas de final
+        edicao2016.quartas.add(Parana);
+        edicao2016.quartas.add(Foz);
+        edicao2016.quartas.add(Malucelli);
+        edicao2016.quartas.add(PSTC);
+        edicao2016.quartas.add(Coritiba);
+        edicao2016.quartas.add(Toledo);
+        edicao2016.quartas.add(AthleticoPR);
+        edicao2016.quartas.add(Londrina);
+        //Semi-Final
+        edicao2016.semi.add(Coritiba);
+        edicao2016.semi.add(PSTC);
+        edicao2016.semi.add(AthleticoPR);
+        edicao2016.semi.add(Parana);
+        //Final
+        edicao2016.finalistas.add(AthleticoPR);
+        edicao2016.finalistas.add(Coritiba);
+        //Campeao
+        edicao2016.campeao = AthleticoPR;
+        //Vice-Campeao
+        edicao2016.vice = Coritiba;            
+
+        //Paranaense 2015
+        Paranaense edicao2015 = new Paranaense();
+        edicao2015.ano = 2015;
+        edicao2015.goleada = "7 a 0 do Athletico sobre o Nacional";
+        edicao2015.golsTotais = 212;
+        edicao2015.numeroPartidas = 82;
+        //classificação 1 fase
+        edicao2015.participantes.add(Coritiba);
+        edicao2015.participantes.add(Malucelli);
+        edicao2015.participantes.add(Operario);
+        edicao2015.participantes.add(Maringa);
+        edicao2015.participantes.add(Londrina);
+        edicao2015.participantes.add(Parana);
+        edicao2015.participantes.add(Foz);
+        edicao2015.participantes.add(Cascavel);
+        edicao2015.participantes.add(AthleticoPR);
+        edicao2015.participantes.add(RioBranco);
+        edicao2015.participantes.add(Nacional);
+        edicao2015.participantes.add(Prudentopolis);
+
+        //rebaixados
+        edicao2015.rebaixados.add(Nacional);
+        edicao2015.rebaixados.add(Prudentopolis);
+        //quartas de final
+        edicao2015.quartas.add(Coritiba);
+        edicao2015.quartas.add(Cascavel);
+        edicao2015.quartas.add(Foz);
+        edicao2015.quartas.add(Malucelli);
+        edicao2015.quartas.add(Operario);
+        edicao2015.quartas.add(Parana);
+        edicao2015.quartas.add(Londrina);
+        edicao2015.quartas.add(Maringa);
+        //Semi-Final
+        edicao2015.semi.add(Operario);
+        edicao2015.semi.add(Foz);
+        edicao2015.semi.add(Coritiba);
+        edicao2015.semi.add(Londrina);
+        //Final
+        edicao2015.finalistas.add(Operario);
+        edicao2015.finalistas.add(Coritiba);
+        //Campeao
+        edicao2015.campeao = Operario;
+        //Vice-Campeao
+        edicao2015.vice = Coritiba;   
+
+
+        //Paranaense 2014
+        Paranaense edicao2014 = new Paranaense();
+        edicao2014.ano = 2014;
+        edicao2014.goleada = "4 a 0 do Parana sobre o Athletico";
+        edicao2014.golsTotais = 235;
+        edicao2014.numeroPartidas = 89;
+        //classificação 1 fase
+        edicao2014.participantes.add(Parana);
+        edicao2014.participantes.add(Coritiba);
+        edicao2014.participantes.add(Maringa);
+        edicao2014.participantes.add(Londrina);
+        edicao2014.participantes.add(Malucelli);
+        edicao2014.participantes.add(Prudentopolis);
+        edicao2014.participantes.add(RioBranco);
+        edicao2014.participantes.add(AthleticoPR);
+        edicao2014.participantes.add(Cianorte);
+        edicao2014.participantes.add(Operario);
+        edicao2014.participantes.add(Arapongas);
+        edicao2014.participantes.add(Toledo);
+
+        //rebaixados
+        edicao2014.rebaixados.add(Arapongas);
+        edicao2014.rebaixados.add(Toledo);
+        //quartas de final
+        edicao2014.quartas.add(AthleticoPR);
+        edicao2014.quartas.add(Parana);
+        edicao2014.quartas.add(Coritiba);
+        edicao2014.quartas.add(RioBranco);
+        edicao2014.quartas.add(Maringa);
+        edicao2014.quartas.add(Prudentopolis);
+        edicao2014.quartas.add(Londrina);
+        edicao2014.quartas.add(Malucelli);
+        //Semi-Final
+        edicao2014.semi.add(Londrina);
+        edicao2014.semi.add(AthleticoPR);
+        edicao2014.semi.add(Maringa);
+        edicao2014.semi.add(Coritiba);
+        //Final
+        edicao2014.finalistas.add(Londrina);
+        edicao2014.finalistas.add(Maringa);
+        //Campeao
+        edicao2014.campeao = Londrina;
+        //Vice-Campeao
+        edicao2014.vice = Maringa;           
 
         //LISTA DE PARANAENSES
-        Paranaense[] campeonatoParanaense = new Paranaense[6];
+        Paranaense[] campeonatoParanaense = new Paranaense[10];
         campeonatoParanaense[0] = edicao2023;
         campeonatoParanaense[1] = edicao2022;
         campeonatoParanaense[2] = edicao2021;
         campeonatoParanaense[3] = edicao2020;
         campeonatoParanaense[4] = edicao2019;
         campeonatoParanaense[5] = edicao2018;
+        campeonatoParanaense[6] = edicao2017;
+        campeonatoParanaense[7] = edicao2016;
+        campeonatoParanaense[8] = edicao2015;
+        campeonatoParanaense[9] = edicao2014;
 
         //PERGUNTAS E RESPOSTAS ===================================
         //#1
@@ -505,7 +692,7 @@ public class Teste {
             for (Time time : paranaense.participantes) 
             {
                 System.out.printf("\"Quantos anos tem o %s?\",\n", time.nome);
-                System.out.printf("\"O %s foi fundado em %s, e tem %d anos de idade\",\n", time.nome,time.anoFundacao,(-time.anoFundacao + 2023));                  
+                System.out.printf("\"O %s foi fundado em %d, e tem %d anos de idade\",\n", time.nome, time.anoFundacao, (-time.anoFundacao + 2023));                  
             }
                        
         }
