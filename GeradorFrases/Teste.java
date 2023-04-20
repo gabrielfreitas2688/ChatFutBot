@@ -1,3 +1,5 @@
+import javax.naming.MalformedLinkException;
+
 public class Teste {
     public static void main(String[] args) 
     {
@@ -23,6 +25,11 @@ public class Teste {
         Time Malucelli = new Time("J.Malucelli", "Ecoestádio Janguito Malucelli", "Curitiba", 1994, 2017, 4200, 0, 10);
         Time Nacional = new Time("Nacional AC", "Erich George", "Rolândia", 1947, 0, 2050, 0, 17);
         Time Arapongas = new Time("Arapongas EC", "Estádio dos Pássaros", "Arapongas", 1974, 0, 15000, 0, 7);
+        Time Paranavai = new Time("AC Paranavai", "Estádio Municipal Dr. Waldemiro Wagner", "Paranavai", 1946, 0, 25000, 1, 37);
+        Time Roma = new Time("Roma Apucarana", "Olímpio Barreto", "Apucarana", 2000, 2019, 10000, 0, 7);
+        Time Iraty = new Time("Iraty SC", "	Estádio Coronel Emílio Gomes", "Irati", 1914, 0, 8000, 1, 27);
+
+
 
         //Paranaense 2023
         Paranaense edicao2023 = new Paranaense();
@@ -520,9 +527,7 @@ public class Teste {
         edicao2014.quartas.add(Coritiba);
         edicao2014.quartas.add(RioBranco);
         edicao2014.quartas.add(Maringa);
-        edicao2014.quartas.add(Prudentopolis);
-        edicao2014.quartas.add(Londrina);
-        edicao2014.quartas.add(Malucelli);
+         edicao2014.quartas.add(Malucelli);
         //Semi-Final
         edicao2014.semi.add(Londrina);
         edicao2014.semi.add(AthleticoPR);
@@ -534,10 +539,100 @@ public class Teste {
         //Campeao
         edicao2014.campeao = Londrina;
         //Vice-Campeao
-        edicao2014.vice = Maringa;           
+        edicao2014.vice = Maringa;    
+        
+        //Paranaense 2013
+        Paranaense edicao2013 = new Paranaense();
+        edicao2013.ano = 2013;
+        edicao2013.goleada = "7 a 0 do Coritiba sobre o Rio Branco";
+        edicao2013.golsTotais = 351;
+        edicao2013.numeroPartidas = 136;
+        //classificação 1 fase
+        edicao2013.participantes.add(Coritiba);
+        edicao2013.participantes.add(Londrina);
+        edicao2013.participantes.add(Parana);
+        edicao2013.participantes.add(Malucelli);
+        edicao2013.participantes.add(AthleticoPR);
+        edicao2013.participantes.add(Arapongas);
+        edicao2013.participantes.add(Paranavai);
+        edicao2013.participantes.add(Toledo);
+        edicao2013.participantes.add(Operario);
+        edicao2013.participantes.add(Cianorte);
+        edicao2013.participantes.add(RioBranco);
+        edicao2013.participantes.add(Nacional);
+
+        //rebaixados
+        edicao2013.rebaixados.add(Paranavai);
+        edicao2013.rebaixados.add(Nacional);
+        //segundo turno
+        edicao2013.segundoTurno.add(AthleticoPR);
+        edicao2013.segundoTurno.add(Londrina);
+        edicao2013.segundoTurno.add(Coritiba);
+        edicao2013.segundoTurno.add(Operario);
+        edicao2013.segundoTurno.add(Parana);
+        edicao2013.segundoTurno.add(Malucelli);
+        edicao2013.segundoTurno.add(Arapongas);
+        edicao2013.segundoTurno.add(Toledo);
+        edicao2013.segundoTurno.add(RioBranco);
+        edicao2013.segundoTurno.add(Cianorte);
+        edicao2013.segundoTurno.add(Nacional);
+        edicao2013.segundoTurno.add(Paranavai);
+        //Final
+        edicao2013.finalistas.add(Coritiba);
+        edicao2013.finalistas.add(AthleticoPR);
+        //Campeao
+        edicao2013.campeao = Coritiba;
+        //Vice-Campeao
+        edicao2013.vice = AthleticoPR;         
+
+
+        //Paranaense 2012
+        Paranaense edicao2012 = new Paranaense();
+        edicao2012.ano = 2012;
+        edicao2012.goleada = "5 a 0 do Athletico sobre o Operário";
+        edicao2012.golsTotais = 374;
+        edicao2012.numeroPartidas = 134;
+        //classificação 1 fase
+        edicao2012.participantes.add(AthleticoPR);
+        edicao2012.participantes.add(Coritiba);
+        edicao2012.participantes.add(Cianorte);
+        edicao2012.participantes.add(Arapongas);
+        edicao2012.participantes.add(Toledo);
+        edicao2012.participantes.add(RioBranco);
+        edicao2012.participantes.add(Londrina);
+        edicao2012.participantes.add(Malucelli);
+        edicao2012.participantes.add(Roma);
+        edicao2012.participantes.add(Operario);
+        edicao2012.participantes.add(Paranavai);
+        edicao2012.participantes.add(Iraty);
+
+        //rebaixados
+        edicao2012.rebaixados.add(Roma);
+        edicao2012.rebaixados.add(Iraty);
+        //segundo turno
+        edicao2012.segundoTurno.add(Coritiba);
+        edicao2012.segundoTurno.add(AthleticoPR);
+        edicao2012.segundoTurno.add(Operario);
+        edicao2012.segundoTurno.add(Arapongas);
+        edicao2012.segundoTurno.add(Londrina);
+        edicao2012.segundoTurno.add(Paranavai);
+        edicao2012.segundoTurno.add(RioBranco);
+        edicao2012.segundoTurno.add(Cianorte);
+        edicao2012.segundoTurno.add(Toledo);
+        edicao2012.segundoTurno.add(Malucelli);
+        edicao2012.segundoTurno.add(Iraty);
+        edicao2012.segundoTurno.add(Roma);
+        //Final
+        edicao2012.finalistas.add(Coritiba);
+        edicao2012.finalistas.add(AthleticoPR);
+        //Campeao
+        edicao2012.campeao = Coritiba;
+        //Vice-Campeao
+        edicao2012.vice = AthleticoPR;         
+
 
         //LISTA DE PARANAENSES
-        Paranaense[] campeonatoParanaense = new Paranaense[10];
+        Paranaense[] campeonatoParanaense = new Paranaense[12];
         campeonatoParanaense[0] = edicao2023;
         campeonatoParanaense[1] = edicao2022;
         campeonatoParanaense[2] = edicao2021;
@@ -548,6 +643,8 @@ public class Teste {
         campeonatoParanaense[7] = edicao2016;
         campeonatoParanaense[8] = edicao2015;
         campeonatoParanaense[9] = edicao2014;
+        campeonatoParanaense[10] = edicao2013;
+        campeonatoParanaense[11] = edicao2012;
 
         //PERGUNTAS E RESPOSTAS ===================================
         //#1
