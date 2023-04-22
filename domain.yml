@@ -1,0 +1,33 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Olá! Como vai?"
+
+  utter_cheer_up:
+  - text: "Fique tranquilo, logo você estará melhor! Aproveitando, sobre qual time posso te dar informações?"
+
+  utter_did_that_help:
+  - text: "No que posso te ajudar?"
+
+  utter_happy:
+  - text: "Que bom! Sobre qual time posso te dar informações?"
+
+  utter_goodbye:
+  - text: "Até mais!"
+
+  utter_iamabot:
+  - text: "Eu sou uma Inteligência Artificial!."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
