@@ -57,6 +57,7 @@ nlu:
     - estou ótimo
     - estou muito bem
     - estou bem
+    - vou bem
     - great
     - amazing
     - feeling like a king
@@ -104,3 +105,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: clubes
+  examples: |
+    - Coritiba
+    - Coxa
+    - Atletico 
+    - Athletico Paranaense 
+    - Athletico 
+    - Cianorte
+    - Operário 
+    - Paraná
+    - Paraná Clube
